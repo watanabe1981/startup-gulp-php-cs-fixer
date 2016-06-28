@@ -6,7 +6,26 @@
   src/test/sample.php をデタラメに編集し、保存。gulp を起動しているターミナルに実行コマンドがロギングされるので、ロギングされることを確認し、ファイルを確認。無事整形されていることを確認。
 ```
 
-* 環境構築準備 *
+* 利用方法
+```
+  ・gulp 用モジュールインストール
+  $ npm install
+
+  ・php composer インストール
+  $ curl -sS https://getcomposer.org/installer | php
+
+  $ mkdir ./bin
+
+  ・php composer ライブラリインストール場所設定
+  $ php composer.phar config --global bin-dir "./bin"
+
+  ・php-cs-fixer インストール
+  $ php composer.phar require fabpot/php-cs-fixer
+```
+
+
+
+* 作業ログ【本プロジェクトを作成するまでのコマンド履歴】 *
 
 ```
   $ mkdir vagrant-gulp-php-cs-fixer
