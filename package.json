@@ -1,0 +1,37 @@
+{
+  "name": "Funaffect-small-set",
+  "version": "0.0.4",
+  "description": "base-file-set",
+  "main": "gulpfile.js",
+  "scripts": {
+    "first": "npm i && npm start",
+    "start": "gulp",
+    "build": "gulp build",
+    "live": "gulp live",
+    "up": "vagrant up && gulp live",
+    "check": "ncu",
+    "update": "ncu -a"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "@i.watanabe",
+  "license": "MIT",
+  "devDependencies": {
+    "es6-promise": "^3.1.2",
+    "glob": "^6.0.4",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-php-cs-fixer": "^0.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-using": "0.1.0",
+    "npm-check-updates": "^2.5.8",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
