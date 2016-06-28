@@ -1,11 +1,14 @@
-環境構築後
+* 環境構築後 *
+```
   作業場所にて
   gulp を実行
 
   src/test/sample.php をデタラメに編集し、保存。gulp を起動しているターミナルに実行コマンドがロギングされるので、ロギングされることを確認し、ファイルを確認。無事整形されていることを確認。
+```
 
-環境構築準備
+* 環境構築準備 *
 
+```
   $ mkdir vagrant-gulp-php-cs-fixer
   ・ベースの各種設定ファイル作成
   $ \cp -rf gulpfile.js vagrant-gulp-php-cs-fixer/
@@ -29,5 +32,5 @@
   $ php composer.phar config --global bin-dir "./bin"
   ・php-cs-fixer インストール
   $ php composer.phar require fabpot/php-cs-fixer
-
+```
 
